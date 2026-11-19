@@ -14,13 +14,13 @@
 
 1. Creación de página HTML básica con un título y color de fondo. Yo aproveché de añadir un hypertexto que pudiera redireccionar a una página con una imagen, esto ya que relacione el concepto de "Multimedial" con la palabra "Interatividad".
 
-<img src="img/gato.jpeg" alt="Imagen de un gato" style="border: 4px solid skyblue;">
+
 
 <h4 style="color: skyblue;">Trabajo en clase</h4>
 
 En su mayoría avances en clase en base a las actividades que se iban presentando. Como ya había hecho otras páginas dentro del mismo código, no tuve que implementar muchas cosas.
 
-<img src="img/miku.jpeg" alt="Imagen de Miku" style="border: 4px solid skyblue;">
+
 
 <h4 style="color: skyblue;">Portafolio Web</h4>
 
@@ -289,12 +289,12 @@ En su mayoría avances en clase en base a las actividades que se iban presentand
 
 <p><a href="https://drive.google.com/drive/folders/11rVqjtPkH4bHHtFGG_YI67GkcPrHDOVK?dmr=1&amp;ec=wgc-drive-%5Bmodule%5D-goto">Aquí estan todos los ejercicios realizados en Touck Designer durante el semestre</a></p>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
-  <img src="img/gif2.gif" alt="Ejercicio TouchDesigner 2" style="width: 100%; border: 4px solid skyblue;">
-  <img src="img/gif3.gif" alt="Ejercicio TouchDesigner 3" style="width: 100%; border: 4px solid skyblue;">
-  <img src="img/gif4.gif" alt="Ejercicio TouchDesigner 4" style="width: 100%; border: 4px solid skyblue;">
-  <img src="img/gif5.gif" alt="Ejercicio TouchDesigner 5" style="width: 100%; border: 4px solid skyblue;">
-  <img src="img/gif6.gif" alt="Ejercicio TouchDesigner 6" style="width: 100%; border: 4px solid skyblue;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+  <img src="img/gif2.gif" alt="Ejercicio TouchDesigner 2" style="width: 220px; height: 220px; object-fit: contain; border: 4px solid skyblue;">
+  <img src="img/gif3.gif" alt="Ejercicio TouchDesigner 3" style="width: 220px; height: 220px; object-fit: contain; border: 4px solid skyblue;">
+  <img src="img/gif4.gif" alt="Ejercicio TouchDesigner 4" style="width: 220px; height: 220px; object-fit: contain; border: 4px solid skyblue;">
+  <img src="img/gif5.gif" alt="Ejercicio TouchDesigner 5" style="width: 220px; height: 220px; object-fit: contain; border: 4px solid skyblue;">
+  <img src="img/gif6.gif" alt="Ejercicio TouchDesigner 6" style="width: 220px; height: 220px; object-fit: contain; border: 4px solid skyblue;">
 </div>
 
 <h3 id="experimentacion-de-proyecto" style="color: skyblue;">3. Experimentación de Proyecto</h3>
@@ -321,5 +321,4 @@ Mi propuesta consiste en la reutilización de imágenes de una obra previa para 
 
 He usado inteligencia artificial para arreglar el Grid de la galería e insertar los link en el apartado de "contacto".
 
-<img src="img/buho.jpeg" alt="Imagen de un búho" style="border: 4px solid skyblue;">
 
